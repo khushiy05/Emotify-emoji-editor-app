@@ -54,7 +54,7 @@ function App() {
       </div>
 
       <div className='slider-container'>
-        <input type="range" min="10" max="150" className="slider" onChange={(e) => {setSliderValue(e.target.value) }} />
+        <input type="range" min="10" max="180" className="slider" onChange={(e) => {setSliderValue(e.target.value) }} />
       </div>
 
       <div className='angle-container'>
