@@ -1,4 +1,3 @@
-/* 🌸 Base Styles 🌸 */
 body, html {
   margin: 0;
   padding: 0;
@@ -60,7 +59,6 @@ body, html {
   filter: blur(100px);
 }
 
-/* 🌸 Emoji Container 🌸 */
 .emoji-container {
   width: 250px;
   height: 200px;
@@ -75,7 +73,6 @@ body, html {
   transform: translate(-50%, -50%);
 }
 
-/* 🌸 Emoji Picker 🌸 */
 .emoji-picker {
   width: fit-content;
   border: 1px solid #ec4899;
@@ -100,7 +97,6 @@ body, html {
   border-radius: 5px;
 }
 
-/* 🌸 Header Banner 🌸 */
 .header-banner {
   position: fixed;
   top: 0;
@@ -119,7 +115,6 @@ body, html {
   align-items: center;       
 }
 
-/* 🌸 Slider 🌸 */
 .slider-container {
   display: flex;
   justify-content: center;
@@ -148,7 +143,6 @@ body, html {
   -webkit-appearance: none; 
 }
 
-/* 🌸 Color Picker 🌸 */
 .color-picker {
   width: 200px;
   height: 200px;
@@ -165,7 +159,6 @@ body, html {
   transform: translate(-50%, -50%);
 }
 
-/* 🌸 Footer 🌸 */
 .footer {
   position: fixed;
   bottom: 0;
@@ -199,7 +192,6 @@ body, html {
   color: #ffe6f4;
 }
 
-/* 🌸 Home Page Styles 🌸 */
 .home-container {
   min-height: 100vh;
   display: flex;
@@ -291,7 +283,6 @@ body, html {
   transform: scale(1.05);
 }
 
-/* 🌸 Rotation Button 🌸 */
 .angle-container {
   display: flex;
   justify-content: center;
@@ -308,7 +299,6 @@ body, html {
   transform: rotate(20deg) scale(1.1); 
 }
 
-/* 🌸 Tablet Mode (max-width: 1024px) 🌸 */
 @media (max-width: 1024px) {
   .header-banner {
     font-size: 1rem;
@@ -353,7 +343,6 @@ body, html {
   }
 }
 
-/* 🌸 Phone Mode (max-width: 700px) 🌸 */
 @media (max-width: 700px) {
   .header-banner {
     font-size: 0.9rem;
